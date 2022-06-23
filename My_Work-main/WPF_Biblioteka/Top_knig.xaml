@@ -1,0 +1,165 @@
+﻿<Page x:Class="WPF_Biblioteka.Top_knig"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_Biblioteka" xmlns:cc="clr-namespace:WPF_Biblioteka.СС"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1800"
+      Title="Top_knig">
+
+
+
+
+
+    <ScrollViewer Margin="12,95">
+
+        <StackPanel>
+            <Grid
+                Margin="120,100,50,20">
+                <TextBlock 
+                    Foreground="{StaticResource SecondBrush}"
+                    FontWeight="SemiBold"
+                    FontSize="22"
+                    Text="Топ книг"
+                    VerticalAlignment="Bottom"/>
+
+            </Grid>
+
+
+
+
+
+
+            <StackPanel
+                Orientation="Horizontal"
+                Margin="110,10,2,0" Height="376">
+
+
+
+
+
+
+                <!--<Grid Background="{StaticResource PrimaryBrush}"
+                      Height="315"
+                      Width="615">
+
+                    
+                <Image Source="Assets/gg.png" Margin="-12,0,118,79"
+                           Stretch="UniformToFill"/>
+                
+                    
+
+                </Grid>-->
+
+
+
+
+
+
+
+                <StackPanel
+                    Orientation="Horizontal"
+                    Margin="10,10,120,0" Width="1236">
+
+
+
+
+
+
+
+
+
+
+                    <cc:Bogatiy
+                    
+                        Margin="0,10,14,2"/>
+                    <Button Padding="5"  Click="Bogatiy" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-220,314,3,24" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Богатый папа..
+
+                    </Button>
+
+
+                    <cc:kupol
+                      
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="kupol" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,316,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Под куполом
+
+                    </Button>
+
+
+                    <cc:Sumerek
+                     
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Sumerek" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,314,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Грани Сумерек
+
+
+                    </Button>
+
+
+
+                    <cc:Putin
+                     
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Putin" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,314,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Путин
+
+                    </Button>
+
+
+                    <cc:Usa
+
+                       
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Usa" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,316,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">США
+
+                    </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </StackPanel>
+
+
+
+
+
+
+
+            </StackPanel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </StackPanel>
+
+
+    </ScrollViewer>
+
+
+</Page>
